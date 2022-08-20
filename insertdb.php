@@ -14,10 +14,11 @@ if (isset($_POST["submit-btn"]))
 
     $currentday = date('D', strtotime("$currentDate"));
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "backtestpairs";
+    
+    $servername = "sql6.freesqldatabase.com";
+    $username = "sql6513929";
+    $password = "A9ACvaXjXS";
+    $dbname = "sql6513929";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
