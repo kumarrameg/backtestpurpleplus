@@ -13,8 +13,8 @@ ini_set('display_errors', 0);
         $conn =mysqli_connect($servername,$username,$password,$dbname);        
         
         
-        
-        $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail"));
+       
+        $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result != 'Waiting' "));
         $toalSignals=$values['total'];
         $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') "));
         $winsignal=$values['total'];
