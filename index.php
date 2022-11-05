@@ -494,11 +494,11 @@
               <span class="child-font"> <?php echo round($sateurusdotcwin/ ($sateurusdotcwin+$sateurusdotcloss)*100).'-'.round($sateurusdotcloss/ ($sateurusdotcwin+$sateurusdotcloss)*100); ?></span>
               <span class="percentageclass">%</span>
             </td>
-            <td>
+            <!-- <td>
               <span class='parent-font'><?php echo $suneurusdotcwin .'-'.$suneurusdotcloss; ?></span>
               <span class="child-font"> <?php echo round($suneurusdotcwin/ ($suneurusdotcwin+$suneurusdotcloss)*100).'-'.round($suneurusdotcloss/ ($suneurusdotcwin+$suneurusdotcloss)*100); ?></span>
               <span class="percentageclass">%</span>
-            </td>
+            </td> -->
           </tr>
           <tr>
             <td>GBP USD-OTC</td>
@@ -512,11 +512,11 @@
                <span class="child-font"> <?php echo round($satgbpusdotcwin/ ($satgbpusdotcwin+$satgbpusdotcloss)*100).'-'.round($satgbpusdotcloss/ ($satgbpusdotcwin+$satgbpusdotcloss)*100); ?></span>
               <span class="percentageclass">%</span>
             </td>
-            <td>
+            <!-- <td>
                <span class='parent-font'><?php echo $sungbpusdotcwin .'-'.$sungbpusdotcloss; ?></span>
                <span class="child-font"> <?php echo round($sungbpusdotcwin/ ($sungbpusdotcwin+$sungbpusdotcloss)*100).'-'.round($sungbpusdotcloss/ ($sungbpusdotcwin+$sungbpusdotcloss)*100); ?></span>
               <span class="percentageclass">%</span>
-            </td>
+            </td> -->
           </tr>
         
         </tbody>
