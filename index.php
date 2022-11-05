@@ -142,29 +142,29 @@
             // wed end
 
             // thu
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='EURUSD' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='EURUSD' and currentday='Thur' "));
             $thueurusdwin=$values['total'];
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='EURUSD' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='EURUSD' and currentday='Thur' "));
             $thueurusdloss=$values['total'];
     
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='GBPUSD' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='GBPUSD' and currentday='Thur' "));
             $thugbpusdwin=$values['total'];
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='GBPUSD' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='GBPUSD' and currentday='Thur' "));
             $thugbpusdloss=$values['total'];
             
-            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='USDJPY' and currentday='Thu' "));
+            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='USDJPY' and currentday='Thur' "));
             // $thuusdjpywin=$values['total'];
-            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='USDJPY' and currentday='Thu' "));
+            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='USDJPY' and currentday='Thur' "));
             // $thuusdjpyloss=$values['total'];
     
-            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='AUDUSD' and currentday='Thu' "));
+            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='AUDUSD' and currentday='Thur' "));
             // $thuaudusdwin=$values['total'];
-            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='AUDUSD' and currentday='Thu' "));
+            // $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='AUDUSD' and currentday='Thur' "));
             // $thuaudusdloss=$values['total'];
     
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='EURGBP' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where ( result='win'  or result='onestepWIN') and pair='EURGBP' and currentday='Thur' "));
             $thueurgbpwin=$values['total'];
-            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='EURGBP' and currentday='Thu' "));
+            $values=mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(*) as total FROM parisdetail where result='loss' and pair='EURGBP' and currentday='Thur' "));
             $thueurgbploss=$values['total'];
             // thu end
 
