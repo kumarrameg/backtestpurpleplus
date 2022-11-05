@@ -1,7 +1,7 @@
 <?php 
-error_reporting(E_ERROR | E_PARSE);
-error_reporting(0);
-ini_set('display_errors', 0);
+// error_reporting(E_ERROR | E_PARSE);
+// error_reporting(0);
+// ini_set('display_errors', 0);
     $servername = "database-1.cbeiyy7nwxcu.us-west-2.rds.amazonaws.com";
     $username = "kumarrameg";
     $password = "39B!3vrKPzA$";
